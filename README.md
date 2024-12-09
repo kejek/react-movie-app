@@ -32,6 +32,8 @@ node -v
 npm -v
 ```
 
+You will also need an API token from [https](https://www.themoviedb.org/)
+
 ## Installation
 
 1. Clone the repository:
@@ -48,6 +50,8 @@ npm -v
    ```bash
    npm install
    ```
+4. Copy or rename .env.example to .env
+5. Replace "<YOUR API TOKEN>" value with the API Token
 
 ## Running the Application
 

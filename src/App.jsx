@@ -3,7 +3,7 @@ import axios from "axios";
 import Search from "./components/Search";
 import "./App.css";
 import MovieCard from "./components/MovieCard";
-import {apiUrl, config} from "./constants";
+import {apiUrl} from "./constants";
 import { Pagination } from "@mui/material";
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -18,6 +18,14 @@ function App() {
         totalResults: 0,
         results: [],
     });
+
+    const apiKey = import.meta.env.VITE_API_TOKEN;
+
+    const config = {
+        headers: {
+          'Authorization': 'Bearer ' + apiKey
+        }
+      }
 
     const [dataPage, setDataPage] = useState(0);
 
