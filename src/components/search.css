@@ -16,7 +16,7 @@
     background: none;
     background-color: #fff;
     border-radius: 8px;
-    color: dimgrey;
+    color: dimgrey !important;
     font-size: 20px;
     font-weight: 300;
     transition: 0.4s ease-out;
