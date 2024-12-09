@@ -32,7 +32,7 @@ node -v
 npm -v
 ```
 
-You will also need an API token from [https](https://www.themoviedb.org/)
+You will also need an API token from [https://www.themoviedb.org/](https://www.themoviedb.org/)
 
 ## Installation
 
