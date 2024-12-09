@@ -51,7 +51,7 @@ You will also need an API token from [https://www.themoviedb.org/](https://www.t
    npm install
    ```
 4. Copy or rename .env.example to .env
-5. Replace "<YOUR API TOKEN>" value with the API Token
+5. Replace "VITE_API_TOKEN" value with the API Token
 
 ## Running the Application
 
